@@ -1,0 +1,67 @@
+.grid::-webkit-scrollbar {
+  width: 13px;
+}
+
+.grid::-webkit-scrollbar-track {
+  background: #0f0f0f;
+  border-radius: 10px;
+}
+
+.grid::-webkit-scrollbar-thumb {
+  background-color: #29272c;
+  border-radius: 10px;
+  border: 2px solid #0f0f0f;
+}
+
+.grid::-webkit-scrollbar-thumb:hover {
+  background-color: #49454f;
+}
+
+.vin-results::-webkit-scrollbar {
+  width: 13px;
+}
+
+.vin-results::-webkit-scrollbar-track {
+  background: #0f0f0f;
+  border-radius: 10px;
+}
+
+.vin-results::-webkit-scrollbar-thumb {
+  background-color: #29272c;
+  border-radius: 10px;
+  border: 2px solid #0f0f0f;
+}
+
+.vin-results::-webkit-scrollbar-thumb:hover {
+  background-color: #49454f;
+}
+
+.graphs::-webkit-scrollbar {
+  width: 13px;
+}
+
+.graphs::-webkit-scrollbar-track {
+  background: #0f0f0f;
+  border-radius: 10px;
+}
+
+.graphs::-webkit-scrollbar-thumb {
+  background-color: #29272c;
+  border-radius: 10px;
+  border: 2px solid #0f0f0f;
+}
+
+.terminal-output::-webkit-scrollbar {
+  width: 13px;
+}
+
+.terminal-output::-webkit-scrollbar-track {
+  background: #0f0f0f;
+  border-radius: 10px;
+}
+
+.terminal-output::-webkit-scrollbar-thumb {
+  background-color: #29272c;
+  border-radius: 10px;
+  border: 2px solid #0f0f0f;
+}

@@ -1,0 +1,21 @@
+{
+  "productName": "HiRo Car",
+  "bundle": {
+    "resources": [
+      "./data/requests.json",
+      "./data/code-descriptions.sqlite",
+      "./data/model-pids.sqlite"
+    ]
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "HiRo Car",
+        "resizable": true,
+        "fullscreen": false,
+        "useHttpsScheme": true
+      }
+    ]
+  }
+}

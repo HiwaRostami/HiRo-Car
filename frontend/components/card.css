@@ -1,0 +1,46 @@
+/*
+    "Card" that holds OBD information:
+    A label, value and unit
+*/
+
+.card {
+  background-color: #151515;
+  border-radius: 12px;
+  padding: 28px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  user-select: none;
+}
+
+.card:hover {
+  background-color: #1d1d1d;
+}
+
+.card h3 {
+  font-size: 0.97rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+  color: #d4dadf;
+}
+
+.card .value {
+  font-size: 3.4rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+  color: #f7f3ff;
+}
+
+.card .unit {
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #d4dadf;
+}
+
+.card.dimmed * {
+  opacity: 0.15 !important;
+}
